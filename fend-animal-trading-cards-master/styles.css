@@ -1,0 +1,61 @@
+/*Styling properties for Animal card*/
+/*Styling specifications for the entire parent box of Animal the card*/
+#card-box {
+          width: 300px;
+          height: 500px;
+          display: block;
+          border: 1px solid;
+          border-style: ridge;
+          border-color: #cce7ff;
+          background-color: #f0f8ff;
+          /*border-color: #cce7ff*/
+          box-sizing: content-box;
+          margin: auto;
+          padding-left: 10px;
+          padding-right: 10px;
+          /* offset-x | offset-y | blur-radius | spread-radius | color */
+          box-shadow: 5px 5px 1px 0.5px rgba(230,230,230,0.5);
+          -webkit-box-shadow: 5px 5px 1px 0.5px rgba(230,230,230,0.5);
+          -moz-box-shadow: 5px 5px 1px 0.5px rgba(230,230,230,0.5);
+}
+
+/*Styling specifications for the child box of summary content in the card*/
+#summary-box{
+        position: relative;
+        width: calc(100% - 0px);
+        height: calc(50% - 30px);
+        display: inherit;
+        border: inherit;
+        border-style: inherit;
+        border-color: #cce7ff;
+        background-color: #e6f3ff;
+        margin-top: 10px; /*margin specific to top only rest set to auto by default*/
+        padding: 10px;
+        text-align: justify;
+        text-justify: auto;
+        overflow: hidden;
+        box-sizing: border-box
+}
+
+/*Styling specifications for the box of image part in the card*/
+#animal_image{
+        width: 300px;
+        height: 200px;
+        display: inherit;
+}
+
+/*Defined font style in the summary area of the animal card*/
+.summary{
+        font-family:"Times New Roman", Times, serif;
+        font-size: 80%;
+}
+
+/*list styling is set to none and formatted as per the mock card*/
+.listOfInfo{
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+    }
+#info{
+        font-weight: bold;
+}
